@@ -23,6 +23,10 @@ time, mark, audio, video {
 }
 
 body {
+    background-color: rgb(0, 186, 255);
+}
+
+main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -30,9 +34,17 @@ body {
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: rgb(0, 186, 255);
-
 }
+
+header {
+    margin: 3px;
+    text-align: right;
+}
+
+/* #admin {
+display:flex;
+justify-content: flex-end;
+} */
 
 section {
     display: flex;
