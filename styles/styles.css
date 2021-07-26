@@ -16,6 +16,12 @@ time, mark, audio, video {
 	border: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -23,19 +29,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    max-width: 100%;
-    /* background-color: rgb(0, 186, 255); */
+    width: 100%;
+    background-color: rgb(0, 186, 255);
 
 }
 
 section {
     display: flex;
     flex-direction: row;
-}
-
-#previous-track {
-    border-right: white 2px solid;
-}
-#next-track {
-    border-left: white 2px solid;
 }
