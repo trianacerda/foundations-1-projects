@@ -40,23 +40,26 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 
 ## What is needed to be a deployable app - meeting expecatations of lab/user
 - front page that works and specifically for visually impaired people
-- large button: play/pause
+- large button: play/pause (skip/back)
 - box for text(title)
 - link for second page: working on placement - possibly upper right 
-- second page for form of input fields for desired song/audio links (work in progress)
+- different clicks for users and/or different buttons 
 
 
 
 ## STRETCH
-- skip button 
 - color scheme options: different versions of color blind
 - screen reader
-
+- second page for form of input fields for desired song/audio links (work in progress)
+- settings for admin to adjust user page 
 
 
 ## NOTES 
 
 - add more more songs-- maybe 50?
-- link to music player? pandora? 
+- link to music player? pandora?
+- coolors for color blindness
+- https://coolors.co/contrast-checker/112a46-acc8e5
+
 
 ![Screen Shot 2021-07-26 at 10 51 17 AM](https://user-images.githubusercontent.com/80484840/127035369-c0683ab5-a1ea-4a41-94ff-9541803a82de.png)
