@@ -17,7 +17,7 @@ time, mark, audio, video {
 }
 
 @media only screen and (max-width: 768px) {
-    [class*="col-"] {
+    body {
         width: 100%;
       }
 }
