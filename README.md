@@ -58,3 +58,5 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 
 - add more more songs-- maybe 50?
 - link to music player? pandora? 
+
+![Screen Shot 2021-07-26 at 10 51 17 AM](https://user-images.githubusercontent.com/80484840/127035369-c0683ab5-a1ea-4a41-94ff-9541803a82de.png)
