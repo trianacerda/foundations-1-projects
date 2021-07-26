@@ -38,3 +38,11 @@ section {
     display: flex;
     flex-direction: row;
 }
+
+.track-btn img {
+    max-width: 100%;
+}
+
+.play-btn img {
+    max-width: 100%;
+}
