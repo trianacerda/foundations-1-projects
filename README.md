@@ -43,11 +43,11 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 - large button: play/pause (skip/back)
 - box for text(title)
 - link for second page: working on placement - possibly upper right 
+- different clicks for users and/or different buttons 
 
 
 
 ## STRETCH
-- skip button 
 - color scheme options: different versions of color blind
 - screen reader
 - second page for form of input fields for desired song/audio links (work in progress)
@@ -57,4 +57,6 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 ## NOTES 
 
 - add more more songs-- maybe 50?
-- link to music player? pandora? 
+- link to music player? pandora?
+- coolors for color blindness
+- https://coolors.co/contrast-checker/112a46-acc8e5
