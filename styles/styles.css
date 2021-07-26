@@ -41,11 +41,6 @@ header {
     text-align: right;
 }
 
-/* #admin {
-display:flex;
-justify-content: flex-end;
-} */
-
 section {
     display: flex;
     flex-direction: row;
