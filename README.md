@@ -40,10 +40,9 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 
 ## What is needed to be a deployable app - meeting expecatations of lab/user
 - front page that works and specifically for visually impaired people
-- large button: play/pause
+- large button: play/pause (skip/back)
 - box for text(title)
 - link for second page: working on placement - possibly upper right 
-- second page for form of input fields for desired song/audio links (work in progress)
 
 
 
@@ -51,7 +50,8 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 - skip button 
 - color scheme options: different versions of color blind
 - screen reader
-
+- second page for form of input fields for desired song/audio links (work in progress)
+- settings for admin to adjust user page 
 
 
 ## NOTES 
