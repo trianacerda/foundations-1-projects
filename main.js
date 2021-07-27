@@ -28,6 +28,7 @@ musicPlayer.src = current_path;
 
 }
 
+console.log(current_path);
 
 function playTrack() {
     musicPlayer.play();
