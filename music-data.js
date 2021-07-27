@@ -2,8 +2,8 @@ const PLAYLIST = [
 
     {
         artist:'Redbone',
-        title:`Come And Get Your Love`,
-        path:`Redbone-Come-And-Get-Your-Love.mp3`
+        title:'Come And Get Your Love',
+        path:'Redbone-Come-And-Get-Your-Love.mp3'
 
     },
     
