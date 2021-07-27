@@ -39,7 +39,7 @@ function nextTrack() {
     }
 
 function previousTrack() {
-    if (current_song > 0 ) {
+    if (current_song >= 0 ) {
         current_song -= 1; 
     } else {current_song = PLAYLIST.length -1;
     }
