@@ -8,7 +8,7 @@ const previousBtn = document.getElementById('previous-track');
 const nextBtn = document.getElementById('next-track');
 
 
-let current_song = 2;
+let current_song = 0;
 let trackPlaying = false;
 
 
@@ -33,7 +33,7 @@ function setTrack(song_index){
 setTrack(current_song);
 
 console.log(current_path);
-console.log('update6');
+console.log('update7');
 
 function playTrack() {
     musicPlayer.play();
