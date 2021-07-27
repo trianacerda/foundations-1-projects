@@ -33,7 +33,7 @@ let current_path = "";
 // setTrack(current_song);
 
 console.log(current_path);
-console.log('update4');
+console.log('update5');
 
 function playTrack() {
     musicPlayer.play();
