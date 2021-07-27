@@ -8,9 +8,10 @@ const previousBtn = document.getElementById('previous-track');
 const nextBtn = document.getElementById('next-track');
 
 
+let current_path = "";
 let current_song = 0;
 let trackPlaying = false;
-
+setTrack(current_song);
 
 playBtn.addEventListener('click', () => {
     if (trackPlaying === false) {
@@ -18,22 +19,33 @@ playBtn.addEventListener('click', () => {
     } else { pauseTrack(); }
 })
 
-let current_path = "";
+nextBtn.addEventListener('click', nextTrack);
+
+previousBtn.addEventListener('click',previousTrack);
+musicPlayer.addEventListener('ended', nextTrack);
 
 function setTrack(song_index){
-    
     current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
-    
     musicPlayer.src = current_path;
-    
-
-    
 }
 
-setTrack(current_song);
+function nextTrack() {
+    if (current_song < PLAYLIST.length -1) {
+        current_song +=1; 
+    } else {current_song = 0;
+    }
+    setTrack(current_song);
+    playTrack();
+    }
 
-console.log(current_path);
-console.log('update7');
+function previousTrack() {
+    if (current_song > 0 ) {
+        current_song -= 1; 
+    } else {current_song = PLAYLIST.length;
+    }
+    setTrack(current_song);
+    playTrack();
+    }
 
 function playTrack() {
     musicPlayer.play();
@@ -47,5 +59,6 @@ function pauseTrack() {
     trackPlaying = false;
     playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play button">`;
 }
+
 
 
