@@ -39,9 +39,9 @@ function nextTrack() {
     }
 
 function previousTrack() {
-    if (current_song >= 0 ) {
-        current_song -= 1; 
-    } else {current_song = PLAYLIST.length -1;
+    if (current_song > 0 ) {
+        current_song -= 1; console.log(current_song);
+    } else {current_song = PLAYLIST.length -1; console.log(current_song);
     }
     setTrack(current_song);
     playTrack();
