@@ -2,7 +2,7 @@ import PLAYLIST from "./music-data.js";
 // [  {song -> PATH}, {song -> PATH}, {song -> PATH}, {song -> PATH}  ]
 
 const musicPlayer = document.getElementById('music-player');
-musicPlayer.setAttribute('src', '');
+// musicPlayer.setAttribute('src', '');
 const playBtn = document.getElementById('play-pause');
 const previousBtn = document.getElementById('previous-track');
 const nextBtn = document.getElementById('next-track');
@@ -20,20 +20,20 @@ playBtn.addEventListener('click', () => {
 
 let current_path = "";
 
-function setTrack(song_index){
+// function setTrack(song_index){
     
-    current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
+//     current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
     
-    musicPlayer.src = current_path;
+//     musicPlayer.src = current_path;
     
-    // playTrack();
+//     // playTrack();
     
-}
+// }
 
 setTrack(current_song);
 
 console.log(current_path);
-console.log('update1');
+console.log('update2');
 
 function playTrack() {
     musicPlayer.play();
