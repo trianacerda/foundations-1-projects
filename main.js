@@ -2,6 +2,7 @@ import PLAYLIST from "./music-data.js";
 // [  {song -> PATH}, {song -> PATH}, {song -> PATH}, {song -> PATH}  ]
 
 const musicPlayer = document.getElementById('music-player');
+musicPlayer.setAttribute('src', '');
 const playBtn = document.getElementById('play-pause');
 const previousBtn = document.getElementById('previous-track');
 const nextBtn = document.getElementById('next-track');
@@ -32,6 +33,7 @@ function setTrack(song_index){
 setTrack(current_song);
 
 console.log(current_path);
+console.log('update1');
 
 function playTrack() {
     musicPlayer.play();
