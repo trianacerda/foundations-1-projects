@@ -41,7 +41,7 @@ function nextTrack() {
 function previousTrack() {
     if (current_song > 0 ) {
         current_song -= 1; 
-    } else {current_song = PLAYLIST.length;
+    } else {current_song = PLAYLIST.length -1;
     }
     setTrack(current_song);
     playTrack();
