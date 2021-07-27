@@ -30,7 +30,7 @@ let current_path = "";
     
 // }
 
-setTrack(current_song);
+// setTrack(current_song);
 
 console.log(current_path);
 console.log('update2');
