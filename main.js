@@ -18,13 +18,15 @@ playBtn.addEventListener('click', () => {
     } else { pauseTrack(); }
 })
 
+let current_path = "";
+
 function setTrack(song_index){
 
-let current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
+    current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
 
-musicPlayer.src = current_path;
+    musicPlayer.src = current_path;
 
-// playTrack();
+    // playTrack();
 
 }
 
