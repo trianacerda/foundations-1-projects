@@ -20,7 +20,7 @@ playBtn.addEventListener('click', () => {
 
 function setTrack(song_index){
 
-let current_path = `./assets/songs/${PLAYLIST[song_index].path}`;
+let current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
 
 musicPlayer.src = current_path;
 
