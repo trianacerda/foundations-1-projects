@@ -26,7 +26,7 @@ function setTrack(song_index){
     
     musicPlayer.src = current_path;
     
-    // playTrack();
+
     
 }
 
@@ -38,11 +38,14 @@ console.log('update7');
 function playTrack() {
     musicPlayer.play();
     trackPlaying = true;
+    playBtn.innerHTML = `<img src='./assets/buttons/pause.png' alt="pause button">`;
+    
 }
 
 function pauseTrack() {
     musicPlayer.pause();
     trackPlaying = false;
+    playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play button">`;
 }
 
 
