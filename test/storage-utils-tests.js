@@ -1,18 +1,20 @@
-// IMPORT MODULES under test here:
-// import { example } from '../example.js';
+import { shuffle } from '../utils/utils.js';
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
-    //Arrange
-    // Set up your arguments and expectations
-    const expected = true;
+test('shuffle function is sorting order of songs in array', (expect) => {
+    let myArray = [0,1,2,3,4,5,6,7,8,9];
+    let shuffleArray = shuffle();
     
-    //Act 
-    // Call the function you're testing and set the result to a const
-    const actual = true;
+    const expected = true;
+    let actual; 
+    for (let i = 0; i < myArray.length; i++){
+        if (myArray[i] !== shuffleArray[i]){
+    actual = true;
+    } else {
+        actual = false;
+    }
+}
 
-    //Expect
-    // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
