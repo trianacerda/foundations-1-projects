@@ -110,3 +110,23 @@ body {
     background: #fff;
     color: #000;
 } */
+
+/* Pastel color scheme
+h1 {
+    color: #ffef9fff;
+    text-shadow: 3px 3px 3px rgb(137, 189, 238);
+}
+
+body {
+    background:#a2d2ffff;
+}
+
+#return, #return-to-music{
+    background:#cdb4dbff ;
+    color: #fffaf0ff;
+}
+
+#return:hover, #return-to-music:hover {
+    background: #ffafccff;
+    color: #ffef9fff;
+}

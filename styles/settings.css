@@ -238,3 +238,50 @@ input:focus + .slider {
     box-shadow: 0 0 1px #000;
   }
 */
+
+/* Pastel color scheme
+h1 {
+    color: #ffef9fff;
+    text-shadow: 3px 3px 3px rgb(137, 189, 238);
+}
+
+label {
+    color: #ffffff;
+}
+
+body {
+    background:#a2d2ffff;
+}
+
+#about-us, #return-to-music {
+    background:#cdb4dbff ;
+    color: #fffaf0ff;
+}
+
+#about-us:hover, #return-to-music:hover {
+    background: #ffafccff;
+    color: #ffef9fff;
+}
+
+#pick-a-style, #pick-playlist {
+    background:#ffafccff ;
+    color: #ffffff;
+    border: 2px solid #b93c5eff;
+}
+
+.slider {
+    background-color: #cdb4dbff;
+}
+
+.slider:before {
+    background-color: #ffef9fff;
+}
+
+input:checked + .slider {
+    background-color: #ffafccff;
+  }
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #000;
+  }
+  */
