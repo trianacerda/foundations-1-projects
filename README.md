@@ -17,22 +17,22 @@ Tools: GitHub, JavaScript, CSS
 Credit section
 
 Justin
--first page functions
--settings/about us page
+* first page functions
+* settings/about us page
 
 Triana
--first page functions
--data collecting
+* first page functions
+* data collecting
 
 Alice
--first page functions
--buttons
--shuffle function
+* first page functions
+* buttons
+* shuffle function
 
 Evon
--first page functions
--function guidance
--shuffle function 
+* first page functions
+* function guidance
+* shuffle function 
 
 # foundations-1-projects
 Mission Statement: "Keep it simple and smart for Triana's dad"
