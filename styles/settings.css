@@ -35,7 +35,7 @@ main {
 
 header {
     margin: 3px;
-    text-align: right;
+    text-align: center;
 }
 
 
@@ -57,23 +57,27 @@ body {
     font-family:Arial, Helvetica, sans-serif
 }
 
-#about-us {
+#about-us, #return-to-music {
     background:#2a9d8f ;
     color: #e9c46a;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 25px;
+    width: 300px;
+    height: 50px;
 
 }
 
-#about-us:hover {
+#about-us:hover, #return-to-music:hover {
     background: #f4a261;
-    color: #264653;
+    color: #d9e2e6;
+    font-size: xx-large;
 
 }
 
 /* DROPDOWN MENU */
+
 #pick-a-style {
     background:#264653 ;
     color: #f4a261;
