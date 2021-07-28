@@ -1,3 +1,11 @@
+## References 
+ Design:
+ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+ Testing:
+ https://github.com/alchemycodelab/alchemy-bootstrap-template/tree/main/test
+
+
+
 # foundations-1-projects
 Mission Statement: "Keep it simple and smart for Triana's dad"
 
