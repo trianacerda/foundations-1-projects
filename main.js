@@ -1,16 +1,18 @@
 import PLAYLIST from "./music-data.js";
 // [  {song -> PATH}, {song -> PATH}, {song -> PATH}, {song -> PATH}  ]
+import { shuffle } from "./utils/utils.js";
 
 const musicPlayer = document.getElementById('music-player');
-// musicPlayer.setAttribute('src', '');
 const playBtn = document.getElementById('play-pause');
 const previousBtn = document.getElementById('previous-track');
 const nextBtn = document.getElementById('next-track');
-
-
 let current_path = "";
+const shuffledIndex = shuffle();
+let shuffled_boolean = true //getLocalStorage().shuffled // TRUE Or FALSE
 let current_song = 0;
 let trackPlaying = false;
+
+
 setTrack(current_song);
 
 playBtn.addEventListener('click', () => {
@@ -18,15 +20,27 @@ playBtn.addEventListener('click', () => {
         playTrack();
     } else { pauseTrack(); }
 })
-
 nextBtn.addEventListener('click', nextTrack);
-
 previousBtn.addEventListener('click',previousTrack);
 musicPlayer.addEventListener('ended', nextTrack);
 
+
 function setTrack(song_index){
-    current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
-    musicPlayer.src = current_path;
+
+    if (shuffled_boolean === true){ 
+
+         current_path = `${PLAYLIST[shuffledIndex[song_index]].path}`;
+         console.log(current_path);
+         musicPlayer.src = current_path;
+
+        }
+
+    else {  
+
+        current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
+        musicPlayer.src = current_path;
+    }
+    
 }
 
 function nextTrack() {
