@@ -40,21 +40,21 @@ header {
 
 
 h1 {
-    color: #e76f51;
+    color: #ffff;
     margin:50px;
     font-size: 80px;
     font-weight: bolder;
-    text-shadow: 3px 3px 3px #8b3706;
+    text-shadow: 3px 3px 3px #0072ffff;
 }
 
 body {
-    background:#264653;
+    background:#00baffff;
     font-family:Arial, Helvetica, sans-serif
 }
 
 #return, #return-to-music{
-    background:#2a9d8f ;
-    color: #e9c46a;
+    background:#ffff9fff ;
+    color: #000000;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
@@ -65,8 +65,8 @@ body {
 }
 
 #return:hover, #return-to-music:hover {
-    background: #f4a261;
-    color: #d9e2e6;
+    background: #ff8080ff;
+    color: #ffffff;
     font-size: xx-large;
 
 }

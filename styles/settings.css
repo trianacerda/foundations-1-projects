@@ -40,28 +40,28 @@ header {
 }
 
 h1 {
-    color: #e76f51;
+    color: #ffff;
     margin:50px;
     font-size: 6rem;
     font-weight: bolder;
-    text-shadow: 3px 3px 3px #8b3706;
+    text-shadow: 3px 3px 3px #0072ffff;
 }
 
 label{
-    color: #e76f51;
+    color: #ffffff;
     font-size: x-large;
 }
 
 body {
-    background:#264653;
+    background:#00baffff;
     font-family:Arial, Helvetica, sans-serif
 }
 
 /* BUTTONS */
 
 #about-us, #return-to-music {
-    background:#2a9d8f ;
-    color: #e9c46a;
+    background:#ffff9fff ;
+    color: #000000;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
@@ -72,8 +72,8 @@ body {
 }
 
 #about-us:hover, #return-to-music:hover {
-    background: #f4a261;
-    color: #d9e2e6;
+    background: #ff8080ff;
+    color: #ffffff;
     font-size: xx-large;
 
 }
@@ -81,9 +81,9 @@ body {
 /* DROPDOWN MENU */
 
 #pick-a-style, #pick-playlist {
-    background:#264653 ;
-    color: #f4a261;
-    border: 2px solid #2a9d8f;
+    background:#ff8080ff ;
+    color: #ffffff;
+    border: 2px solid #b93c5eff;
     border-radius: 5px;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -110,7 +110,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2a9d8f;
+    background-color: #0072ffff;
     transition: .4s;
   }
 
@@ -121,16 +121,16 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: #e9c46a;
+    background-color: #ffff9fff;
     transition: .4s;
   }
   
 input:checked + .slider {
-    background-color: #e76f51;
+    background-color: #b93c5eff;
   }
   
 input:focus + .slider {
-    box-shadow: 0 0 1px #f4a261;
+    box-shadow: 0 0 1px #0072ffff;
   }
   
 input:checked + .slider:before {
