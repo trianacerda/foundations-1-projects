@@ -36,6 +36,7 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 - One thing that went well today?
 - One thing we would like to improve on?
 - One thing to continue for tomorrow?
+- One thing we learned today?
 
 
 ## What is needed to be a deployable app - meeting expecatations of lab/user
