@@ -144,3 +144,97 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
   }
+
+  /* washed out color scheme
+  h1 {
+    color: #e76f51;
+	text-shadow: 3px 3px 3px #8b3706;
+}
+
+label {
+    color: #e76f51;
+}
+
+body {
+    background:#264653;
+}
+
+#about-us, #return-to-music {
+    background:#2a9d8f ;
+    color: #e9c46a;
+}
+
+#about-us:hover, #return-to-music:hover {
+    background: #f4a261;
+    color: #d9e2e6;
+}
+
+#pick-a-style, #pick-playlist {
+    background:#264653 ;
+    color: #f4a261;
+    border: 2px solid #2a9d8f;
+}
+
+.slider {
+    background-color: #2a9d8f;
+}
+
+.slider:before {
+    background-color: #e9c46a;
+}
+
+input:checked + .slider {
+    background-color: #e76f51;
+  }
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #f4a261;
+  } 
+*/
+
+/* black and white color scheme
+  h1 {
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+}
+
+label {
+    color: #fff;
+}
+
+body {
+    background:#000;
+}
+
+#about-us, #return-to-music {
+    background:#fff ;
+    color: #000;
+}
+
+#about-us:hover, #return-to-music:hover {
+    background: #fff;
+    color: #000;
+}
+
+#pick-a-style, #pick-playlist {
+    background:#fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.slider {
+    background-color: rgb(100, 100, 100);
+}
+
+.slider:before {
+    background-color: #fff;
+}
+
+input:checked + .slider {
+    background-color: rgb(100, 100, 100);
+  }
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #000;
+  }
+*/

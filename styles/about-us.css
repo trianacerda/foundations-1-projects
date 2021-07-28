@@ -70,3 +70,43 @@ body {
     font-size: xx-large;
 
 }
+
+/* Washed out color scheme
+h1 {
+    color: #e76f51;
+    text-shadow: 3px 3px 3px #8b3706;
+}
+
+body {
+    background:#264653;
+}
+
+#return, #return-to-music{
+    background:#2a9d8f ;
+    color: #e9c46a;
+}
+
+#return:hover, #return-to-music:hover {
+    background: #f4a261;
+    color: #d9e2e6;
+} */
+
+/* Black and color scheme
+h1 {
+    color: ##ffff;
+    text-shadow: 3px 3px 3px #000;
+}
+
+body {
+    background:#000;
+}
+
+#return, #return-to-music{
+    background:#ffff ;
+    color: #000;
+}
+
+#return:hover, #return-to-music:hover {
+    background: #fff;
+    color: #000;
+} */
