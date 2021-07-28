@@ -1,8 +1,10 @@
 ## References 
- Design:
+ * Design:
  https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
- Testing:
+ * Testing:
  https://github.com/alchemycodelab/alchemy-bootstrap-template/tree/main/test
+ * Code: 
+ https://teamtreehouse.com/community/mathrandom05
 
 
 
