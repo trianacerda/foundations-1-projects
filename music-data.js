@@ -1,4 +1,4 @@
-const PLAYLIST = [
+const PLAYLIST1 = [
 
     {
         artist:'Redbone',
@@ -63,7 +63,6 @@ const PLAYLIST = [
 
 ]
 
-export default PLAYLIST; 
 
 const PLAYLIST2 = [
 
@@ -130,4 +129,7 @@ const PLAYLIST2 = [
 
 ]
 
-export default PLAYLIST2;
+
+let PLAYLIST = [PLAYLIST1, PLAYLIST2]; 
+
+export default PLAYLIST;
