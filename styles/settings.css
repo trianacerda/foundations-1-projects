@@ -43,6 +43,8 @@ h1 {
     color: #e76f51;
     margin:50px;
     font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #8b3706;
 }
 
 label{
