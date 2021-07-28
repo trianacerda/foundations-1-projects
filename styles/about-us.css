@@ -40,21 +40,21 @@ header {
 
 
 h1 {
-    color: #e76f51;
+    color: #ffff;
     margin:50px;
     font-size: 80px;
     font-weight: bolder;
-    text-shadow: 3px 3px 3px #8b3706;
+    text-shadow: 3px 3px 3px #0072ffff;
 }
 
 body {
-    background:#264653;
+    background:#00baffff;
     font-family:Arial, Helvetica, sans-serif
 }
 
 #return, #return-to-music{
-    background:#2a9d8f ;
-    color: #e9c46a;
+    background:#ffff9fff ;
+    color: #000000;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
@@ -65,8 +65,68 @@ body {
 }
 
 #return:hover, #return-to-music:hover {
-    background: #f4a261;
-    color: #d9e2e6;
+    background: #ff8080ff;
+    color: #ffffff;
     font-size: xx-large;
 
+}
+
+/* Washed out color scheme
+h1 {
+    color: #e76f51;
+    text-shadow: 3px 3px 3px #8b3706;
+}
+
+body {
+    background:#264653;
+}
+
+#return, #return-to-music{
+    background:#2a9d8f ;
+    color: #e9c46a;
+}
+
+#return:hover, #return-to-music:hover {
+    background: #f4a261;
+    color: #d9e2e6;
+} */
+
+/* Black and color scheme
+h1 {
+    color: ##ffff;
+    text-shadow: 3px 3px 3px #000;
+}
+
+body {
+    background:#000;
+}
+
+#return, #return-to-music{
+    background:#ffff ;
+    color: #000;
+}
+
+#return:hover, #return-to-music:hover {
+    background: #fff;
+    color: #000;
+} */
+
+/* Pastel color scheme
+h1 {
+    color: #ffef9fff;
+    text-shadow: 3px 3px 3px rgb(137, 189, 238);
+}
+
+body {
+    background:#a2d2ffff;
+}
+
+#return, #return-to-music{
+    background:#cdb4dbff ;
+    color: #fffaf0ff;
+}
+
+#return:hover, #return-to-music:hover {
+    background: #ffafccff;
+    color: #ffef9fff;
 }
