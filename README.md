@@ -1,3 +1,8 @@
+## References 
+ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+ 
+
+
 # foundations-1-projects
 Mission Statement: "Keep it simple and smart for Triana's dad"
 
