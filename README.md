@@ -6,7 +6,33 @@
  * Code: 
  https://teamtreehouse.com/community/mathrandom05
 
+## resume description for app 
 
+App— is a frontend app that was specifically designed for a user who is visually impaired that also experiences mobility issues. App— provides an ability based UI feature to give control of a preloaded playlist created by an outside user. App— is tailored to be inclusive in regards to specific barriers, allowing an individual to access wonderful music. Along with beautifully designed features, App— has a grab bag of wonderful colors to chose from. 
+
+Tools: GitHub, JavaScript, CSS
+
+
+
+Credit section
+
+Justin
+-first page functions
+-settings/about us page
+
+Triana
+-first page functions
+-data collecting
+
+Alice
+-first page functions
+-buttons
+-shuffle function
+
+Evon
+-first page functions
+-function guidance
+-shuffle function 
 
 # foundations-1-projects
 Mission Statement: "Keep it simple and smart for Triana's dad"
