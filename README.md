@@ -10,14 +10,14 @@
  https://ytmp3.cc/converter/
 
 
-## simplePlay
+# simplePlay
 
 simplePlay is a frontend app that was specifically designed for a user who is visually impaired that also experiences mobility issues. simplePLay provides an ability based UI feature to give control of a preloaded playlist created by an outside user. simplePlay is tailored to be inclusive in regards to specific barriers, allowing an individual to access wonderful music. Along with beautifully designed features, simplePLay has a grab bag of wonderful colors to chose from. 
 
 simplePlay resolves a specific problem related visual and mobility barriers. simplePlay was designed with a team member's immediate family in mind. Most people love music and the inability to independently access this can be difficult. simplePlay allows any user to access preload music with 2 touches. The first touch is to open the app, second is to start playing music. The playlist is previous selected by an exteral user. simplePlay brings accessibility and great tunes for all. Specifically, simplePlay brings hope back to someone who loves music but lost the ability to easily access it. 
 
- # Tools: GitHub, JavaScript, CSS
- # Dev Team: Alice, Evon, Justin, and Triana
+ Tools: GitHub, JavaScript, CSS
+## Dev Team: Alice, Evon, Justin, and Triana
 
 
 Credit section
