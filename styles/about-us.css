@@ -71,6 +71,33 @@ body {
 
 }
 
+section {
+    margin: 10px;
+    border: #ff8080ff solid 3px;
+    padding: 10px;
+    background-color: #fffaf0ff;
+    border-radius: 30px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.twitter-follow-button {
+    margin-top: 10px;
+}
+
+.team {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+h2{
+    margin: 15px;
+    text-align: center;
+
+}
+
 /* Washed out color scheme
 h1 {
     color: #e76f51;
