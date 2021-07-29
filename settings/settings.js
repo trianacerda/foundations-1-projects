@@ -61,7 +61,7 @@ export function changeColorSchemeToDefault(){
     playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play-button">`;
     
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.innerHTML = `<img src='./assets/buttons/pause.png' alt="play-button">`;
+    pauseBtn.innerHTML = `<img src='./assets/buttons/pause.png' alt="pause-button">`;
 
     let body = document.getElementsByTagName('body');
     body[0].style.backgroundColor = '#00baffff';
