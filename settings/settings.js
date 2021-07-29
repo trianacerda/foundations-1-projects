@@ -1,15 +1,15 @@
 export function changeColorSchemeToBnw() {
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.innerHTML = './assets/buttons/replay-BnW.png';
+    prevBtn.innerHTML = `<img src='./assets/buttons/replay-BnW.png' alt="previous-track">`;
 
     let nextBtn = document.getElementById('next-track');
-    nextBtn.innerHTML = './assets/buttons/skip-BnW.png';
+    nextBtn.innerHTML = `<img src='./assets/buttons/skip-BnW.png' alt="next-track">`;
 
     let playBtn = document.getElementById('play-pause');
-    playBtn.innerHTML = './assets/buttons/play-BnW.png';
+    playBtn.innerHTML = `<img src='./assets/buttons/play-BnW.png' alt="play-button">`;
 
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.innerHTML = './assets/buttons/pause-BnW.png';
+    pauseBtn.innerHTML = `<img src='./assets/buttons/pause-BnW.png' alt="play-button">`;
 
     let body = document.getElementsByTagName('body');
     console.log(body);
@@ -18,16 +18,16 @@ export function changeColorSchemeToBnw() {
     
 export function changeColorSchemeToPastel(){
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.innerHTML = './assets/buttons/replay-pastel.png';
+    prevBtn.innerHTML = `<img src='./assets/buttons/replay-pastel.png' alt="previous-track">`;
     
     let nextBtn = document.getElementById('next-track');
-    nextBtn.innerHTML = './assets/buttons/skip-pastel.png';
+    nextBtn.innerHTML = `<img src='./assets/buttons/skip-pastel.png' alt="next-track">`;
     
     let playBtn = document.getElementById('play-pause');
-    playBtn.innerHTML = './assets/buttons/play-pastel.png';
+    playBtn.innerHTML = `<img src='./assets/buttons/play-pastel.png' alt="play-button">`;
     
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.innerHTML = './assets/buttons/pause-pastel.png';
+    pauseBtn.innerHTML = `<img src='./assets/buttons/pause-pastel.png' alt="pause-button">`;
 
     let body = document.getElementsByTagName('body');
     body[0].style.backgroundColor = '#a2d2ffff';
@@ -35,16 +35,16 @@ export function changeColorSchemeToPastel(){
 
 export function changeColorSchemeToWashout(){
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.innerHTML = './assets/buttons/replay-washout.png';
+    prevBtn.innerHTML = `<img src='./assets/buttons/replay-washout.png' alt="previous-track">`;
     
     let nextBtn = document.getElementById('next-track');
-    nextBtn.innerHTML = './assets/buttons/skip-washout.png';
+    nextBtn.innerHTML = `<img src='./assets/buttons/skip-washout.png' alt="next-track">`;
     
     let playBtn = document.getElementById('play-pause');
-    playBtn.innerHTML = './assets/buttons/play-washout.png';
+    playBtn.innerHTML = `<img src='./assets/buttons/play-washout.png' alt="play-button">`;
     
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.innerHTML = './assets/buttons/pause-washout.png';
+    pauseBtn.innerHTML = `<img src='./assets/buttons/pause-washout.png' alt="pause-button">`;
 
     let body = document.getElementsByTagName('body');
     body[0].style.backgroundColor = '#264653';
@@ -52,16 +52,16 @@ export function changeColorSchemeToWashout(){
    
 export function changeColorSchemeToDefault(){
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.innerHTML = './assets/buttons/replay.png';
+    prevBtn.innerHTML = `<img src='./assets/buttons/replay.png' alt="previous-track">`;
     
     let nextBtn = document.getElementById('next-track');
-    nextBtn.innerHTML = './assets/buttons/skip.png';
+    nextBtn.innerHTML = `<img src='./assets/buttons/skip.png' alt="next-track">`;
     
     let playBtn = document.getElementById('play-pause');
-    playBtn.innerHTML = './assets/buttons/play.png';
+    playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play-button">`;
     
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.innerHTML = './assets/buttons/pause.png';
+    pauseBtn.innerHTML = `<img src='./assets/buttons/pause.png' alt="play-button">`;
 
     let body = document.getElementsByTagName('body');
     body[0].style.backgroundColor = '#00baffff';
