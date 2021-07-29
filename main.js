@@ -28,10 +28,10 @@ function setScheme(str, playPauseToggle){
 if( str === 'default' ){
     changeColorSchemeToDefault(playPauseToggle);
 }
-if( str === 'washed out' ){
+if( str === 'washedout' ){
     changeColorSchemeToWashout(playPauseToggle);
 }
-if( str === 'black & white' ){
+if( str === 'blackandwhite' ){
 
     changeColorSchemeToBnw(playPauseToggle);
 }
