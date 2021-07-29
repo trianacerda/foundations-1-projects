@@ -147,7 +147,12 @@ input:checked + .slider:before {
 
   #current-settings {
       display: none;
-      border: black solid 5px;
+      margin: 10px;
+      border: #ff8080ff solid 3px;
+      padding: 10px;
+      background-color: #fffaf0ff;
+      border-radius: 30px;
+      font-size: 20px;
   }
 
   /* washed out color scheme

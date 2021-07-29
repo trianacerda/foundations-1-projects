@@ -38,5 +38,5 @@ function viewSettings(){
   currentPlaylist.textContent = `Current Playlist: Playlist ${settingsData.playlist + 1}`;
   currentShuffle.textContent = `Shuffle is On: ${settingsData.shuffle}`;
   const settingsBox = document.getElementById('current-settings');
-  settingsBox.style.display='block';
+  settingsBox.style.display='flex';
 }
