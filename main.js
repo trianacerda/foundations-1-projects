@@ -1,4 +1,4 @@
-import PLAYLIST from "../data/music-data.js";
+import PLAYLIST from "./data/music-data.js";
 import { shuffle } from "./utils/shuffle.js";
 import { getSettings, setSettings } from "./utils/localStorage.js";
 import { changeColorSchemeToBnw, changeColorSchemeToDefault, changeColorSchemeToPastel, changeColorSchemeToWashout } from "./settings/settings.js";
