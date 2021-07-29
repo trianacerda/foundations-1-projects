@@ -1,5 +1,5 @@
-import PLAYLIST from "./music-data.js";
-import { shuffle } from "./utils/utils.js";
+import PLAYLIST from "../data/music-data.js";
+import { shuffle } from "./utils/shuffle.js";
 import { getSettings, setSettings } from "./utils/localStorage.js";
 import { changeColorSchemeToBnw, changeColorSchemeToDefault, changeColorSchemeToPastel, changeColorSchemeToWashout } from "./settings/settings.js";
 const musicPlayer = document.getElementById('music-player');
@@ -14,13 +14,10 @@ let settings = getSettings();
 if( settings === null){
     setSettings();
 }
+
 let shuffled_boolean = settings.shuffle;
 let playlist = settings.playlist;
 let color_Scheme = settings.scheme; 
-// console.log(shuffled_boolean);
-// console.log(playlist);
-// console.log(color_Scheme);
-
 let current_song = 0;
 let trackPlaying = false;
 
@@ -67,7 +64,6 @@ function setTrack(song_index){
     else {  
 
         current_path = './assets/songs/' + `${PLAYLIST[playlist][song_index].path}`;
-        console.log(current_path)
         musicPlayer.src = current_path;
     }
     
@@ -94,13 +90,11 @@ function previousTrack() {
 function playTrack() {
     musicPlayer.play();
     trackPlaying = true;
-    // playBtn.innerHTML = `<img src='./assets/buttons/pause.png' alt="pause button">`;
     setScheme(color_Scheme, 'pause');
 }
 
 function pauseTrack() {
     musicPlayer.pause();
     trackPlaying = false;
-    // playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play button">`;
     setScheme(color_Scheme, 'play');
 }
