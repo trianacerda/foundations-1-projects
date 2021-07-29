@@ -1,69 +1,70 @@
 export function changeColorSchemeToBnw() {
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.src = '../assets/buttons/replay-BnW.png';
+    prevBtn.innerHTML = './assets/buttons/replay-BnW.png';
 
     let nextBtn = document.getElementById('next-track');
-    nextBtn.src = '../assets/buttons/skip-BnW.png';
+    nextBtn.innerHTML = './assets/buttons/skip-BnW.png';
 
     let playBtn = document.getElementById('play-pause');
-    playBtn.src = '../assets/buttons/play-BnW.png';
+    playBtn.innerHTML = './assets/buttons/play-BnW.png';
 
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.src = '../assets/buttons/pause-BnW.png';
+    pauseBtn.innerHTML = './assets/buttons/pause-BnW.png';
 
     let body = document.getElementsByTagName('body');
-    body.style.backgroundColor = '#000';
+    console.log(body);
+    body[0].style.backgroundColor = '#000';
     }
     
 export function changeColorSchemeToPastel(){
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.src = '../assets/buttons/replay-pastel.png';
+    prevBtn.innerHTML = './assets/buttons/replay-pastel.png';
     
     let nextBtn = document.getElementById('next-track');
-    nextBtn.src = '../assets/buttons/skip-pastel.png';
+    nextBtn.innerHTML = './assets/buttons/skip-pastel.png';
     
     let playBtn = document.getElementById('play-pause');
-    playBtn.src = '../assets/buttons/play-pastel.png';
+    playBtn.innerHTML = './assets/buttons/play-pastel.png';
     
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.src = '../assets/buttons/pause-pastel.png';
+    pauseBtn.innerHTML = './assets/buttons/pause-pastel.png';
 
     let body = document.getElementsByTagName('body');
-    body.style.backgroundColor = '#a2d2ffff';
+    body[0].style.backgroundColor = '#a2d2ffff';
     }
 
 export function changeColorSchemeToWashout(){
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.src = '../assets/buttons/replay-washout.png';
+    prevBtn.innerHTML = './assets/buttons/replay-washout.png';
     
     let nextBtn = document.getElementById('next-track');
-    nextBtn.src = '../assets/buttons/skip-washout.png';
+    nextBtn.innerHTML = './assets/buttons/skip-washout.png';
     
     let playBtn = document.getElementById('play-pause');
-    playBtn.src = '../assets/buttons/play-washout.png';
+    playBtn.innerHTML = './assets/buttons/play-washout.png';
     
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.src = '../assets/buttons/pause-washout.png';
+    pauseBtn.innerHTML = './assets/buttons/pause-washout.png';
 
     let body = document.getElementsByTagName('body');
-    body.style.backgroundColor = '#264653';
+    body[0].style.backgroundColor = '#264653';
     }
    
 export function changeColorSchemeToDefault(){
     let prevBtn = document.getElementById('previous-track');
-    prevBtn.src = '../assets/buttons/replay.png';
+    prevBtn.innerHTML = './assets/buttons/replay.png';
     
     let nextBtn = document.getElementById('next-track');
-    nextBtn.src = '../assets/buttons/skip.png';
+    nextBtn.innerHTML = './assets/buttons/skip.png';
     
     let playBtn = document.getElementById('play-pause');
-    playBtn.src = '../assets/buttons/play.png';
+    playBtn.innerHTML = './assets/buttons/play.png';
     
     let pauseBtn = document.getElementById('play-pause');
-    pauseBtn.src = '../assets/buttons/pause.png';
+    pauseBtn.innerHTML = './assets/buttons/pause.png';
 
     let body = document.getElementsByTagName('body');
-    body.style.backgroundColor = '#00baffff';
+    body[0].style.backgroundColor = '#00baffff';
     }
 
  
