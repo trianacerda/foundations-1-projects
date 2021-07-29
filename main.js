@@ -11,7 +11,6 @@ let shuffled_boolean = false //getLocalStorage().shuffled // TRUE Or FALSE
 let current_song = 0;
 let trackPlaying = false;
 
-
 setTrack(current_song);
 
 playBtn.addEventListener('click', () => {
@@ -29,6 +28,7 @@ function setTrack(song_index){
     if (shuffled_boolean === true){ 
 
          current_path = `${PLAYLIST[shuffledIndex[song_index]].path}`;
+         console.log(current_path)
          musicPlayer.src = current_path;
 
         }
@@ -36,6 +36,7 @@ function setTrack(song_index){
     else {  
 
         current_path = './assets/songs/' + `${PLAYLIST[song_index].path}`;
+        console.log(current_path)
         musicPlayer.src = current_path;
     }
     
