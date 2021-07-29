@@ -2,13 +2,13 @@ import { shuffle } from "./utils.js";
 import PLAYLIST from "../music-data.js";
 const SETTINGS = 'Settings';
 
-const defaultScheme = 0; 
-const defaultPlaylist = PLAYLIST[0];
+const defaultScheme = 'default'; 
+const defaultPlaylist = 0;
 
 
 export function getSettings(){
 
-let settings = localStorage.getItem( SETTINGS || '{}' );
+let settings = localStorage.getItem( SETTINGS || '' );
 let parsedSettings = JSON.parse(settings);
 
 return parsedSettings;

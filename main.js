@@ -11,6 +11,9 @@ let current_path = "";
 const shuffledIndex = shuffle();
 
 let settings = getSettings();
+if( settings === null){
+    setSettings();
+}
 let shuffled_boolean = false//settings.shuffle;
 let playlist = settings.playlist;
 let color_Scheme = settings.scheme; 
@@ -20,6 +23,7 @@ let color_Scheme = settings.scheme;
 
 let current_song = 0;
 let trackPlaying = false;
+
 
 
 if( color_Scheme === 'default' ){
@@ -32,11 +36,10 @@ if( color_Scheme === 'black & white' ){
 
     changeColorSchemeToBnw();
 }
-else{
-
+if( color_Scheme === 'pastel' ){
     changeColorSchemeToPastel();
-
 }
+
 
 
 
@@ -63,7 +66,7 @@ function setTrack(song_index){
 
     if (shuffled_boolean === true){ 
 
-         current_path = `${PLAYLIST[playlist][shuffledIndex[song_index]].path}`;
+         current_path = './assets/songs/' + `${PLAYLIST[playlist][shuffledIndex[song_index]].path}`;
          musicPlayer.src = current_path;
 
         }
