@@ -2,6 +2,7 @@ import { changeColorSchemeToBnw, changeColorSchemeToPastel, changeColorSchemeToW
 import {getSettings, setSettings} from '../utils/localStorage.js'
 
 const form1 = document.getElementById('form1');
+var settingsData = getSettings();
 
 form1.addEventListener('submit', (e) => {
 
@@ -19,40 +20,23 @@ form1.addEventListener('submit', (e) => {
         shuffle = false;
     }
 
-    setSettings(shuffle, playlist, scheme);
-    
+    setSettings(shuffle, playlist, scheme); 
+
+  })
+  
+  if (settingsData !== '') {
+    viewSettings();
+  }
 
 
 
-    
-    // if ( scheme === 1 ) {
-       
-    //     const doc = document.getElementsByTagName('body');
-    //     doc[0].style.backgroundColor = '#a2d2ffff'
-
-    // }
-    // if ( scheme === 2 ) {
-
-    //     changeColorSchemeToWashout();
-
-    // }
-    // if ( scheme === 3 ) {
-
-    //     changeColorSchemeToBnw();
-
-    // }
-    // if ( scheme === 4 ) {
-
-    //     changeColorSchemeToDefault();
-
-    // }    
-})
-
-
-function changeAppearance(colorScheme){
-
-
-
-
+function viewSettings(){
+  const currentColor = document.getElementById('current-color');
+  const currentPlaylist = document.getElementById('current-playlist');
+  const currentShuffle = document.getElementById('current-shuffle');
+  currentColor.textContent = `Current Colorscheme: ${settingsData.scheme}`;
+  currentPlaylist.textContent = `Current Playlist: Playlist ${settingsData.playlist + 1}`;
+  currentShuffle.textContent = `Shuffle is On: ${settingsData.shuffle}`;
+  const settingsBox = document.getElementById('current-settings');
+  settingsBox.style.display='block';
 }
-

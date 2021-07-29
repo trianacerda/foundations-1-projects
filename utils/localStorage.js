@@ -8,10 +8,10 @@ const defaultPlaylist = 0;
 
 export function getSettings(){
 
-let settings = localStorage.getItem( SETTINGS || '' );
-let parsedSettings = JSON.parse(settings);
+    let settings = localStorage.getItem( SETTINGS || '' );
+    let parsedSettings = JSON.parse(settings);
 
-return parsedSettings;
+    return parsedSettings;
 
 }
 

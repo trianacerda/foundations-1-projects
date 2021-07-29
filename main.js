@@ -24,38 +24,24 @@ let color_Scheme = settings.scheme;
 let current_song = 0;
 let trackPlaying = false;
 
-setScheme(color_Scheme);
+setScheme(color_Scheme, 'play');
 
-// if( color_Scheme === 'default' ){
-//     changeColorSchemeToDefault();
-// }
-// if( color_Scheme === 'washed out' ){
-//     changeColorSchemeToWashout();
-// }
-// if( color_Scheme === 'black & white' ){
 
-//     changeColorSchemeToBnw();
-// }
-// if( color_Scheme === 'pastel' ){
-//     changeColorSchemeToPastel();
-// }
-
-function setScheme(str){
+function setScheme(str, playPauseToggle){
 if( str === 'default' ){
-    changeColorSchemeToDefault();
+    changeColorSchemeToDefault(playPauseToggle);
 }
 if( str === 'washed out' ){
-    changeColorSchemeToWashout();
+    changeColorSchemeToWashout(playPauseToggle);
 }
 if( str === 'black & white' ){
 
-    changeColorSchemeToBnw();
+    changeColorSchemeToBnw(playPauseToggle);
 }
 if( str === 'pastel' ){
-    changeColorSchemeToPastel();
+    changeColorSchemeToPastel(playPauseToggle);
 }
 }
-
 
 setTrack(current_song);
 
@@ -67,13 +53,6 @@ playBtn.addEventListener('click', () => {
 nextBtn.addEventListener('click', nextTrack);
 previousBtn.addEventListener('click',previousTrack);
 musicPlayer.addEventListener('ended', nextTrack);
-
-
-
-
-
-
-
 
 
 function setTrack(song_index){
@@ -125,6 +104,3 @@ function pauseTrack() {
     // playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play button">`;
     setScheme(color_Scheme, 'play');
 }
-
-
-
