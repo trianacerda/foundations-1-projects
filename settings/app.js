@@ -6,7 +6,7 @@ const form1 = document.getElementById('form1');
 var settingsData = getSettings();
 
 form1.addEventListener('submit', (e) => {
-
+  
     e.preventDefault(); 
 
     const formData = new FormData(form1);
@@ -24,7 +24,7 @@ form1.addEventListener('submit', (e) => {
     }
 
     setSettings(shuffle, playlist, scheme); 
-
+    
   })
   
   if (settingsData !== '') {
