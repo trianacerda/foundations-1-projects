@@ -1,3 +1,5 @@
+/* ELEMENTS */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,6 +54,8 @@ body {
     font-family:Arial, Helvetica, sans-serif
 }
 
+/* BUTTONS */
+
 #return, #return-to-music{
     background:#ffff9fff ;
     color: #000000;
@@ -69,6 +73,13 @@ body {
     color: #ffffff;
     font-size: xx-large;
 
+}
+
+/* DEV LINKS */
+
+hr {
+width: 80%;
+border-top: solid 2px #ff8080ff;
 }
 
 section {
