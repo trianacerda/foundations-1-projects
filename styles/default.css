@@ -59,7 +59,7 @@ body {
 
 /* BUTTONS */
 
-#about-us, #return-to-music {
+#about-us, #return-to-music, #apply-settings {
     background:#ffff9fff ;
     color: #000000;
     font-size: x-large;
@@ -71,7 +71,7 @@ body {
 
 }
 
-#about-us:hover, #return-to-music:hover {
+#about-us:hover, #return-to-music:hover, #apply-settings:hover {
     background: #ff8080ff;
     color: #ffffff;
     font-size: xx-large;
