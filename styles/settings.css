@@ -145,6 +145,11 @@ input:checked + .slider:before {
     border-radius: 50%;
   }
 
+  #current-settings {
+      display: none;
+      border: black solid 5px;
+  }
+
   /* washed out color scheme
   h1 {
     color: #e76f51;
