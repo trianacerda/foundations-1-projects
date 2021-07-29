@@ -73,9 +73,9 @@ const PLAYLIST2 = [
     },
     
     {
-        artist:'Deliverance',
-        title:`Dueling Branjos`,
-        path:`deliverance-dueling-banjos.mp3`
+        artist:'Van Morrison',
+        title:`Doctor My Eyes`,
+        path:`van-morrison-doctor-my-eyes.mp3`
     },
 
     {
