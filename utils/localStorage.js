@@ -1,5 +1,3 @@
-import { shuffle } from "./utils.js";
-import PLAYLIST from "../music-data.js";
 const SETTINGS = 'Settings';
 
 const defaultScheme = 'default'; 

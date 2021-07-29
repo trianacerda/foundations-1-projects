@@ -1,4 +1,4 @@
-import { shuffle } from '../utils/utils.js';
+import { shuffle } from '../utils/shuffle.js';
 import {getSettings, setSettings} from '../utils/localStorage.js'
 
 const test = QUnit.test;
