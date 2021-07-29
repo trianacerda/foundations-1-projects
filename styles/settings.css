@@ -147,12 +147,15 @@ input:checked + .slider:before {
 
   #current-settings {
       display: none;
-      margin: 10px;
-      border: #ff8080ff solid 3px;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 10px 40px 10px;
+      border: #ff8080ff solid 4px;
       padding: 10px;
       background-color: #fffaf0ff;
       border-radius: 30px;
       font-size: 20px;
+      font-weight: bold;
   }
 
   /* washed out color scheme
