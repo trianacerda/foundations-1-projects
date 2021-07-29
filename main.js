@@ -14,7 +14,7 @@ let settings = getSettings();
 if( settings === null){
     setSettings();
 }
-let shuffled_boolean = false//settings.shuffle;
+let shuffled_boolean = settings.shuffle;
 let playlist = settings.playlist;
 let color_Scheme = settings.scheme; 
 // console.log(shuffled_boolean);
@@ -24,23 +24,37 @@ let color_Scheme = settings.scheme;
 let current_song = 0;
 let trackPlaying = false;
 
+setScheme(color_Scheme);
 
+// if( color_Scheme === 'default' ){
+//     changeColorSchemeToDefault();
+// }
+// if( color_Scheme === 'washed out' ){
+//     changeColorSchemeToWashout();
+// }
+// if( color_Scheme === 'black & white' ){
 
-if( color_Scheme === 'default' ){
+//     changeColorSchemeToBnw();
+// }
+// if( color_Scheme === 'pastel' ){
+//     changeColorSchemeToPastel();
+// }
+
+function setScheme(str){
+if( str === 'default' ){
     changeColorSchemeToDefault();
 }
-if( color_Scheme === 'washed out' ){
+if( str === 'washed out' ){
     changeColorSchemeToWashout();
 }
-if( color_Scheme === 'black & white' ){
+if( str === 'black & white' ){
 
     changeColorSchemeToBnw();
 }
-if( color_Scheme === 'pastel' ){
+if( str === 'pastel' ){
     changeColorSchemeToPastel();
 }
-
-
+}
 
 
 setTrack(current_song);
@@ -101,14 +115,15 @@ function previousTrack() {
 function playTrack() {
     musicPlayer.play();
     trackPlaying = true;
-    playBtn.innerHTML = `<img src='./assets/buttons/pause.png' alt="pause button">`;
-    
+    // playBtn.innerHTML = `<img src='./assets/buttons/pause.png' alt="pause button">`;
+    setScheme(color_Scheme, 'pause');
 }
 
 function pauseTrack() {
     musicPlayer.pause();
     trackPlaying = false;
-    playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play button">`;
+    // playBtn.innerHTML = `<img src='./assets/buttons/play.png' alt="play button">`;
+    setScheme(color_Scheme, 'play');
 }
 
 
