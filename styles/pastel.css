@@ -59,7 +59,7 @@ body {
 
 /* BUTTONS */
 
-#about-us, #return-to-music {
+#about-us, #return-to-music, #apply-settings {
   background:#cdb4dbff ;
   color: #fffaf0ff;
   font-size: x-large;
@@ -71,7 +71,7 @@ body {
 
 }
 
-#about-us:hover, #return-to-music:hover {
+#about-us:hover, #return-to-music:hover, #apply-settings:hover {
   background: #ffafccff;
   color: #ffef9fff;
   font-size: xx-large;
@@ -150,9 +150,10 @@ input:checked + .slider:before {
       flex-direction: column;
       align-items: center;
       margin: 10px 10px 40px 10px;
-      border: #ff8080ff solid 4px;
+      border: #cdb4dbff solid 4px;
       padding: 10px;
       background-color: #fffaf0ff;
+      color: #ffafccff;
       border-radius: 30px;
       font-size: 20px;
       font-weight: bold;
