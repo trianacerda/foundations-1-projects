@@ -1,5 +1,6 @@
 import { changeColorSchemeToBnw, changeColorSchemeToPastel, changeColorSchemeToWashout, changeColorSchemeToDefault  } from './settings.js';
 import {getSettings, setSettings} from '../utils/localStorage.js'
+const css_link = document.getElementsByTagName('link');
 
 const form1 = document.getElementById('form1');
 var settingsData = getSettings();
@@ -12,7 +13,9 @@ form1.addEventListener('submit', (e) => {
     let scheme = formData.get('styles');
     let playlist = Number(formData.get('list'));
     let shuffle = formData.get('shuffle-play');
-    console.log(playlist);
+    css_link[0].href = `../styles/${scheme}.css`
+    
+
     if(shuffle === 'on'){
       shuffle = true;
     }
