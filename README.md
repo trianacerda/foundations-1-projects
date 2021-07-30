@@ -1,4 +1,5 @@
 <img width="1224" alt="Music App" src="https://user-images.githubusercontent.com/19967119/127682337-487d5f49-9414-479e-9b84-bcc5727c99ad.png">
+
 ## References 
  * Design:
  https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
