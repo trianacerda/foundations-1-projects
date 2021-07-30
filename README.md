@@ -14,7 +14,7 @@
 
 SimplePlay is a frontend app that was specifically designed for a user who is visually impaired that also experiences mobility issues. SimplePLay provides an ability based UI feature to give control of a preloaded playlist created by an outside user. SimplePlay is tailored to be inclusive in regards to specific barriers, allowing an individual to access wonderful music. Along with beautifully designed features, SimplePLay has a grab bag of wonderful colors to chose from. 
 
-simplePlay resolves a specific problem related visual and mobility barriers. SimplePlay was designed with a team member's immediate family in mind. Most people love music and the inability to independently access this can be difficult. SimplePlay allows any user to access preload music with 2 touches. The first touch is to open the app, second is to start playing music. The playlist is previous selected by an exteral user. SimplePlay brings accessibility and great tunes for all. Specifically, SimplePlay brings hope back to someone who loves music but lost the ability to easily access it. 
+SimplePlay resolves a specific problem related to visual and mobility barriers. SimplePlay was designed with a team member's immediate family in mind. Most people love music and the inability to independently access this can be difficult. SimplePlay allows any user to access pre-loaded music with 2 touches. The first touch is to open the app, second is to start playing music. The playlist is previously selected by an exteral user. SimplePlay brings accessibility and great tunes for all. Specifically, SimplePlay brings hope back to someone who loves music but lost the ability to easily access it. 
 
  Tools: GitHub, JavaScript, CSS
 ## Dev Team: Alice, Evon, Justin, and Triana
@@ -25,10 +25,12 @@ Credit section
 Justin
 * first page functions
 * settings/about us page
+* TDD 
 
 Triana
 * first page functions
 * data collecting
+* TDD
 
 Alice
 * first page functions
@@ -111,5 +113,9 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 ## Presentation Day
 * Your planning process -- show us your Miro board
 * Your data model -- how and why did you choose to model your data the way you did
+-music-data:structured to what we know as local data, localStorage, assests data:btn(pictures-original), css files: rendering css data
 * Your local storage -- what is being saved when and how is it updated
+-playlist, color schemes, shuffle is on 
 * The hardest technical problem you faced and how you solved it
+-coloring changing schemes, imaging what it could do and what we knew we could do. 
+-working within our toolbox: music-data, everyone handled it, very organized and planful, group agreements.
