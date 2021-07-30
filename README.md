@@ -124,6 +124,7 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 -working within our toolbox: music-data, everyone handled it, very organized and planful, group agreements.
 
 
-<img width="1224" alt="Music App (1)" src="https://user-images.githubusercontent.com/19967119/127684689-a5e83e59-3639-4f83-8f09-b372cfc6b2c9.png">
+<img width="1224" alt="Music App (2)" src="https://user-images.githubusercontent.com/19967119/127690835-f1b5bf57-8b46-4cfd-b6fa-89bab13bd274.png">
+
 
 
