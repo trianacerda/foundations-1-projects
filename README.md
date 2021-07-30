@@ -1,3 +1,4 @@
+<img width="1224" alt="Music App" src="https://user-images.githubusercontent.com/19967119/127682337-487d5f49-9414-479e-9b84-bcc5727c99ad.png">
 ## References 
  * Design:
  https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
@@ -26,6 +27,7 @@ Justin
 * first page functions
 * settings/about us page
 * TDD 
+![Uploading Music App.png…]()
 
 Triana
 * first page functions
@@ -119,3 +121,7 @@ Mission Statement: "Keep it simple and smart for Triana's dad"
 * The hardest technical problem you faced and how you solved it
 -coloring changing schemes, imaging what it could do and what we knew we could do. 
 -working within our toolbox: music-data, everyone handled it, very organized and planful, group agreements.
+
+
+![Uploading Music App.png…]()
+
