@@ -1,3 +1,6 @@
+// settings aren't being loaded initially -- if you change
+// the settings, then reload the page, they're being reset to default
+
 import { changeColorSchemeToBnw, changeColorSchemeToPastel, changeColorSchemeToWashout, changeColorSchemeToDefault  } from './settings.js';
 import {getSettings, setSettings} from '../utils/localStorage.js'
 const css_link = document.getElementsByTagName('link');

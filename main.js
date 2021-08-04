@@ -24,6 +24,7 @@ let trackPlaying = false;
 setScheme(color_Scheme, 'play');
 
 
+// see note in settings.js
 function setScheme(str, playPauseToggle){
 if( str === 'default' ){
     changeColorSchemeToDefault(playPauseToggle);
@@ -45,7 +46,10 @@ setTrack(current_song);
 playBtn.addEventListener('click', () => {
     if (trackPlaying === false) {
         playTrack();
-    } else { pauseTrack(); }
+    } else { 
+        // personal preference, but i prefer elses on a new line
+        pauseTrack(); 
+    }
 })
 nextBtn.addEventListener('click', nextTrack);
 previousBtn.addEventListener('click',previousTrack);
@@ -72,7 +76,8 @@ function setTrack(song_index){
 function nextTrack() {
     if (current_song < PLAYLIST[playlist].length -1) {
         current_song +=1; 
-    } else {current_song = 0;
+    } else {
+        current_song = 0;
     }
     setTrack(current_song);
     playTrack();
@@ -81,11 +86,12 @@ function nextTrack() {
 function previousTrack() {
     if (current_song > 0 ) {
         current_song -= 1; console.log(current_song);
-    } else {current_song = PLAYLIST[playlist].length -1; console.log(current_song);
+    } else {
+        current_song = PLAYLIST[playlist].length -1; 
     }
     setTrack(current_song);
     playTrack();
-    }
+}
 
 function playTrack() {
     musicPlayer.play();

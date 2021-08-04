@@ -1,3 +1,10 @@
+// would love to see this refactored to avoid repetitive code
+// you could LIKELY make your life a lot simpler by making the
+// buttons using pure CSS instead of images
+// however, even without that, you could likely update this to interpolate
+// the color scheme
+
+
 export function changeColorSchemeToBnw(str) {
     let prevBtn = document.getElementById('previous-track');
     prevBtn.innerHTML = `<img src='./assets/buttons/replay-BnW.png' alt="previous-track">`;
